@@ -11,7 +11,7 @@ for i in range(len(array_numb)):
     if min_number[1] > array_numb[i]:
         min_number[0] = i
         min_number[1] = array_numb[i]
-
+for i in range(len(array_numb)):
     if min_number[3] > array_numb[i] and i != min_number[0]:
         min_number[2] = i
         min_number[3] = array_numb[i]
